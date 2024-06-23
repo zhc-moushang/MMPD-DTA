@@ -1,7 +1,7 @@
-# MMPLA
+# MMDTA
 We propose a novel protein-ligand binding affinity prediction model (MMPLA).
 ```
-conda create -n MMPLA poython=3.8
+conda create -n MMDTA poython=3.8
 ```
  
 ## Data
