@@ -1,5 +1,5 @@
 # MMDTA
-We propose a novel protein-ligand binding affinity prediction model (MMDTA).
+We propose A multi-modal deep learning model for predicting drug-target binding affinity
 ```
 conda create -n MMDTA poython=3.8
 ```
