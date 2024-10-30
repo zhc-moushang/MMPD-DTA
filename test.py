@@ -13,10 +13,6 @@ from torch.cuda.amp import GradScaler, autocast
 from sklearn.metrics import roc_auc_score, r2_score, precision_recall_curve, auc
 
 
-# chongfu = ['1vso', '2pog', '1h23', '1ps3', '1yc1', '10gs', '2j78', '2d3u', '2iwx', '1gpk', '2jdu', '1s38', '1syi', '3f3d', '1nc1', '1r5y', '1g2k', '2qbr', '1p1n', '2qnq', '1qkt', '2p4y', '2qmj', '1w3k', '1uto', '1hnn', '1nc3', '2vkm', '3bgz', '2fvd', '2qbq', '2brb', '1h22', '1eby', '2hb1', '2vw5', '2jdy', '3e92', '1z95']
-# chongfu = ['2j78', '1uto', '2vw5', '2fvd', '2jdu', '1yc1', '2qbr', '2d3u', '1hnn', '2brb', '10gs', '2p4y', '2qmj', '1vso', '1r5y', '2iwx', '1z95', '1ps3', '2jdy', '1w3k', '2hb1', '1gpk', '1h23']
-
-
 def test(model: nn.Module, test_loader, loss_function, device, show):
     model.eval()
     test_loss = 0
