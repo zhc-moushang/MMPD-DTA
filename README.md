@@ -1,7 +1,7 @@
 # MMPD-DTA
 We propose a multi-modal deep learning model for predicting drug-target binding affinity
 ```
-conda create -n MMDTA poython=3.8
+conda env create -f environment.yml -n MMPD_DTA
 ```
  
 ## Data
