@@ -11,4 +11,4 @@ If you want to train the model, run python [main.py](main.py). Our training set 
 ##
 We provide test scripts to reproduce the data in the paper.[test.py](test.py)
 ## Cite
-If our work is helpful to you, we encourage you to cite our paper:
+If our work is helpful to you, we encourage you to cite our paper:https://doi.org/10.1021/acs.jcim.4c01528
