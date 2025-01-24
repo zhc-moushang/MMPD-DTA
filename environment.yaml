@@ -1,4 +1,4 @@
-name: complex
+name: MMPD-DTA
 channels:
   - defaults
 dependencies:
@@ -47,6 +47,7 @@ dependencies:
       - requests==2.31.0
       - requests-oauthlib==2.0.0
       - rsa==4.9
+      - scikit-learn==1.3.2
       - six==1.16.0
       - tensorboard==2.14.0
       - tensorboard-data-server==0.7.2
@@ -61,4 +62,4 @@ dependencies:
       - urllib3==2.2.1
       - werkzeug==3.0.1
       - zipp==3.18.1
-prefix: /home/zhc/anaconda3/envs/complex
+prefix: /home/zhc/anaconda3/envs/MMPD-DTA
